@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1{
+  text-align: center;
+}
+
+.calculadora{
+  width: 400px;
+}
+
+.display{
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+}
+
+.btn{
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
+  font-size: 1em;
+  border: none;
+  background-color: #dfdfdf;
+  cursor: pointer;
+}
+
+input{
+  background-color: #bbbbbb;
+  border-radius: 5px;
+  font-family: 'Audiowide', cursive;
+}
+
+.btn:hover{
+  background-color: #adabab;
+}
+
+.btn-eq{
+  background-color: #749bce;
+}
+
+.btn-eq:hover{
+  background-color: #5b80af;
+}
+
+.btn-del{
+  background-color: #ce7474;
+}
+
+.btn-del:hover{
+  background-color: #924b4b;
+}
+
+table{
+  margin: auto;
+}
